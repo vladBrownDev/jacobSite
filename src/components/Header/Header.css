@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    font-style: normal;
+    line-height: 2.5vw;
+    letter-spacing: -0.008em;
+    font-weight: 400;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#headerName {
+    font-size: 1.5vw;
+}
+body {
+    margin:0 2.9vw;
+}
+header span {
+    font-size: 0.83vw;
+    margin-left: 1.63vw;
+    cursor: pointer;
+    color: #5F5F5F;
+}
+.activeTab {
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}

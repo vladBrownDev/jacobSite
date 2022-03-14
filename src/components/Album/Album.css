@@ -1,0 +1,111 @@
+body::-webkit-scrollbar { 
+    width: 0px;  
+    background: transparent;  
+}
+html {
+    -ms-overflow-style: none;  /* IE 10+ */
+    scrollbar-width: none; /* Firefox */
+}
+.albumHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#tabName {
+    margin-bottom: 2.91vw;
+}
+#tabName span {
+    font-size: 0.83vw;
+}
+#albumText {
+    width: 22.08vw;
+    height: 35vw;
+}
+.grayText {
+    color: #5F5F5F;
+    cursor: pointer;
+}
+.grayText:hover {
+    color: black;
+}
+#albumText h1 {
+    font-weight: 400;
+    font-size: 1.25vw;
+    margin:0;
+    margin-bottom:0.73vw;
+}
+#desc {
+    display: flex;
+    flex-direction: column;
+
+}
+#desc span {
+    color: #5F5F5F;
+    font-size: 0.73vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.008em;
+    margin-bottom: 1.25vw;
+}
+.toolSec {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.73vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.008em;
+    color: #5F5F5F;
+    margin-bottom: 0.83vw;
+}
+.toolSec p {
+    margin: 0;
+}
+.toolSec span {
+    text-align: left;
+    margin-right: 1.66vw;
+}
+.toolSec span:nth-child(1) {
+    width: 2.76vw;
+}
+#headImg {
+    width: 70.41vw;
+    height: 35vw;
+}
+.multiplePhotos, .multiplePhotos2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:0.833vw;
+    max-height: 63.333vw;
+    width: 94.16vw;
+}
+.smallPh, .smallPh2 {
+    /* width: 38.75vw; */
+    height: 31.25vw;
+    width: 40.15%;
+}
+.smallPh:nth-child(1), .smallPh2:nth-child(2) {
+    margin-bottom:0.833vw;
+}
+.bigPh {
+    /* width: calc(54.58vw - 25px); */
+    height: 63.34vw;
+    width: 59%;
+    margin-left: 0.83vw;
+}
+#biggestPh {
+    width: 100%;
+    margin-top: 0.83vw;
+}
+.bigPh2 {
+    height: 63.3vw;
+    width: 59%;
+    margin-right: 0.83vw;
+}
+#restAlbum {
+    margin-bottom: 0.83vw;
+}
+.multiplePhotos img, .multiplePhotos2 img,
+#biggestPh, #headImg {
+    cursor: pointer;
+}

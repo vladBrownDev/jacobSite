@@ -1,0 +1,47 @@
+#carouselHeader {
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#carouselHeader div {
+    font-size: 0.83vw;
+}
+#carouselHeader img {
+    width: 0.81vw;
+    height: 0.81vw;
+}
+.carouselImg {
+    max-width: 53.33vw;
+    height: 40vw;
+}
+.imgShell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+    background-image: url("../../imgs/Arrow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: " " !important;
+    width: 2vw !important;
+    height: 2vw !important;
+}
+.swiper-button-prev::after {
+    transform: rotate(180deg);
+}
+.swiper-button-next:focus {
+    outline: none;
+}
+#headerNMain {
+    min-height: 94.02vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cross {
+    cursor: pointer;
+}

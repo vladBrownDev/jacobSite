@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 2.4vw;
+}
+#leftFooter {
+    font-size: 0.73vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.008em;
+    color: #5F5F5F;
+}
+#mailFooter {
+    font-size: 0.73vw;
+    text-align: right;
+    letter-spacing: 0.008em;
+}
