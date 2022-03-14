@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/jacobSite/static/css/main.f3745cce.css",
+    "main.js": "/jacobSite/static/js/main.3ced6f57.js",
+    "static/js/787.cab68842.chunk.js": "/jacobSite/static/js/787.cab68842.chunk.js",
+    "static/media/firstCover.png": "/jacobSite/static/media/firstCover.a7b5a5b800d60452bcdb.png",
+    "static/media/Photo 6.png": "/jacobSite/static/media/Photo 6.73ab34bdd9fc0284fc1f.png",
+    "static/media/thirdCover.png": "/jacobSite/static/media/thirdCover.bdd965a0dd662bad3416.png",
+    "static/media/Photo 5.png": "/jacobSite/static/media/Photo 5.18baea0af6f75842138e.png",
+    "static/media/Photo 2.png": "/jacobSite/static/media/Photo 2.26a52b21786d0ad6bca3.png",
+    "static/media/secCover.png": "/jacobSite/static/media/secCover.f7edbfdd61a7dcaf3fee.png",
+    "static/media/fourthCover.png": "/jacobSite/static/media/fourthCover.5dfb9bba221e6fd112ae.png",
+    "static/media/fifthCover.png": "/jacobSite/static/media/fifthCover.7e478ddfec26acb18de4.png",
+    "static/media/Photo 1.png": "/jacobSite/static/media/Photo 1.e4b707544fc7114c581a.png",
+    "static/media/Photo 7.png": "/jacobSite/static/media/Photo 7.e4265e224ed4aecf6313.png",
+    "static/media/Photo 8.png": "/jacobSite/static/media/Photo 8.c3504ddd8c258e3128db.png",
+    "static/media/Photo 4.png": "/jacobSite/static/media/Photo 4.7266913c969993f006cb.png",
+    "static/media/jacobPic.png": "/jacobSite/static/media/jacobPic.aacc0373d1f5c8f87c53.png",
+    "static/media/Photo 3.png": "/jacobSite/static/media/Photo 3.ed9897b6d1d85bad0904.png",
+    "index.html": "/jacobSite/index.html",
+    "main.f3745cce.css.map": "/jacobSite/static/css/main.f3745cce.css.map",
+    "main.3ced6f57.js.map": "/jacobSite/static/js/main.3ced6f57.js.map",
+    "787.cab68842.chunk.js.map": "/jacobSite/static/js/787.cab68842.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3745cce.css",
+    "static/js/main.3ced6f57.js"
+  ]
+}
